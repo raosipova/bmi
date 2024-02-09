@@ -6,7 +6,7 @@ public class Main {
         double height = 1.87; // метры
         double weight = 98; // кг
         double Bmi = service.calculate(height, weight); //должно получиться 28
-        System.out.printf("индекс массы тела" + Bmi);
+        System.out.printf("индекс массы тела " + Bmi);
 
 
     }
